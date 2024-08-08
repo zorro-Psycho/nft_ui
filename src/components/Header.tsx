@@ -1,5 +1,6 @@
-import logo_dark from '@/assets/logo-dark.svg'
-import logo_light from '@/assets/logo-light.svg'
+
+import image_1 from '@/assets/image-1.png'; 
+
 import { Bars3Icon, MagnifyingGlassIcon, ShoppingCartIcon, UserCircleIcon } from '@heroicons/react/24/outline'
 import { WalletIcon } from '@heroicons/react/24/solid'
 import clsx from 'clsx'
@@ -37,9 +38,9 @@ export default function Header() {
           <div className="flex h-full items-center">
             <div className="relative w-40">
               <img
-                src={isSticked ? logo_dark : logo_light}
+                src={image_1}
                 loading="eager"
-                className="absolute inset-0 my-auto object-contain"
+                className="absolute inset-0 my-auto object-contain h-20 w-30"
                 alt="logo"
               />
             </div>
